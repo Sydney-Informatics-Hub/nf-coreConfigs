@@ -8,4 +8,4 @@ nextflow run ../rnaseq/main.nf \
     --gtf $materials/mm10_reference/mm10_chr18.gtf \
     --fasta $materials/mm10_reference/mm10_chr18.fa \
     --star_index $materials/mm10_reference/STAR \
-    -c pawsey_nimbus.config -profile singularity,c2r8 
+    -c pawsey_nimbus.config -profile singularity,c2r8
