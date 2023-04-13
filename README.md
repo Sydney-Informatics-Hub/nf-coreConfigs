@@ -13,7 +13,7 @@ Development and testing nf-core configs for Australian national HPC and cloud pl
 1. Clone this repository and change into it 
 
 ```
-git clone https://github.com/Sydney-Informatics-Hub/nf-coreConfigs.git && cd $_
+git clone https://github.com/Sydney-Informatics-Hub/nf-coreConfigs.git && cd nf-coreConfigs
 ```
 
 2. Clone the nf-core/rnaseq workflow
