@@ -22,6 +22,12 @@ git clone https://github.com/Sydney-Informatics-Hub/nf-coreConfigs.git && cd $_
 git clone https://github.com/nf-core/rnaseq.git 
 ```
 
+You may need to change branch. For example: 
+
+```
+git checkout nimbus
+```
+
 3. Download the test data
 
 ```
