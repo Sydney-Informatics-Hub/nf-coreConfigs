@@ -2,7 +2,7 @@
 
 nf-core pipelines have been successfully run on the Nimbus cloud at [Pawsey Supercomputing Centre](https://pawsey.org.au/).
 
-Currently profiles for various [instance flavours](https://support.pawsey.org.au/documentation/display/US/How+to+Choose+a+Flavour), Singularity, and Docker are supported. This config has been developed for the 'Pawsey Bio - Ubuntu 22.04 - 2023-03' image. Instructions for setting up your instance with an image are [here](https://support.pawsey.org.au/documentation/display/US/Create+a+Nimbus+Instance). 
+Currently profiles for various [instance flavours](https://support.pawsey.org.au/documentation/display/US/How+to+Choose+a+Flavour), Singularity, and Docker are supported. This config has been developed for the ['Pawsey Bio - Ubuntu 22.04 - 2023-03' image](https://support.pawsey.org.au/documentation/display/US/Nimbus+for+Bioinformatics). Instructions for setting up your instance with an image are [here](https://support.pawsey.org.au/documentation/display/US/Create+a+Nimbus+Instance). Nextflow (v22.10.6), Singularity (v3.8.7), and Docker (v20.10.16) are pre-installed on the 'Pawsey Bio - Ubuntu 22.04 - 2023-03' image. 
 
 ## Profiles 
 
@@ -29,3 +29,7 @@ To run the nimbus profile with Docker, specify:
 ```
 -profile pawsey_nimbus,docker 
 ```
+
+## Recommendations 
+
+Pawsey recommend storing cached nf-core container images on your attached external data volume. By default your Singularity cache directory will be `/home/ubuntu/singularity`. You can override this using the [`NXF_SINGULARITY_CACHEDIR=`](https://www.nextflow.io/docs/latest/singularity.html) environmental variable to change the default cache directory.  
