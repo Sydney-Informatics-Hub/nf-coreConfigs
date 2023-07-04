@@ -1,3 +1,6 @@
 materials
 nfcore_materials.tar.gz
 rnaseq
+*/nf-core*
+*/work
+*/.nextflow*
