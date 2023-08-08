@@ -1,3 +1,9 @@
 materials
 nfcore_materials.tar.gz
 rnaseq
+*/nf-core*
+*/work
+*/.nextflow*
+*/*trace*
+*/test
+*/runGadi.sh
